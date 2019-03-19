@@ -1,9 +1,7 @@
-# WiFinátor
+# Dovolenkátor
 
-WiFinátor is an [Aruba][] ad-hoc WiFi configuration tool.
+Dovolenkátor is tool providing API to remaining occupational leave in DB.
 
-It's intended use is to allow non-technical [NTK]() staff to define
-short-lived virtual access points for various events, such as conferences.
-
-[Aruba]: http://www.arubanetworks.com/
+It's intended use is to display remaining occupational leave to [NTK]() staff 
+on intranet page.
 [NTK]: http://techlib.cz/
