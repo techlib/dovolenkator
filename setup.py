@@ -4,24 +4,24 @@ from setuptools import setup
 import os.path
 
 setup(
-    name = 'wifinator',
+    name = 'dovolenkator',
     version = '1',
     author = 'NTK',
-    description = ('Aruba Ad-Hoc WiFi Configuration Tool'),
+    description = ('tool to track remaining occupational leave'),
     license = 'MIT',
-    keywords = 'aruba wifi adhoc configuration',
-    url = 'http://github.com/techlib/wifinator',
+    keywords = 'API occupational leave',
+    url = 'http://github.com/techlib/dovolenkator',
     include_package_data = True,
     package_data = {
         '': ['*.png', '*.js', '*.html'],
     },
     packages = [
-        'wifinator',
+        'dovolenkator',
     ],
     classifiers = [
         'License :: OSI Approved :: MIT License',
     ],
-    scripts = ['wifinator-daemon', 'wifinator-stats']
+    scripts = ['dovolenkator-daemon']
 )
 
 
